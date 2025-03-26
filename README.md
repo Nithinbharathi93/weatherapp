@@ -99,12 +99,6 @@ mern-weather-app/
 
 ---
 
-## 🖼 UI Preview
-
-![Weather App UI](https://via.placeholder.com/800x400)
-
----
-
 ## 📌 Future Enhancements
 
 🔹 Add user authentication (JWT-based)  
@@ -124,5 +118,5 @@ This project is open-source and available under the MIT License.
 
 ---
 
-### 🚀 Made with ❤️ by Nithinbharathi.T
+### 🚀 Made with ❤️ by [!Nithinbharathi.T](https://github.com/Nithinbharathi93)
 
