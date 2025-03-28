@@ -14,7 +14,6 @@ function App() {
       const response = await axios.get(`${DOMAIN_NAME}/forecast?city=${city}`);
       console.log(response.data);
       setForecast(response.data);
-       
     } catch (error) {
       console.log('Error fetching data..!', error);
     }

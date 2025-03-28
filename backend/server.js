@@ -38,8 +38,6 @@
             const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apikey}&units=metric`;
 
             const response = await axios.get(url);
-            // console.log(response.data.list[0].main.temp);
-            // console.log(response.data.list[0].weather[0].description);
 
             // Creating a weather data
             const weatherdata = {
@@ -52,7 +50,6 @@
             const saveWeather = new Weather(weatherdata);
             await saveWeather.save();
             res.json(response.data);  // Fix: use response.data
-            // console.log(`Data added successfully\n: ${weatherdata}`);
 
         } catch (err) {
             console.error("Error fetching forecast:", err);

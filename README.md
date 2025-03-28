@@ -118,5 +118,5 @@ This project is open-source and available under the MIT License.
 
 ---
 
-### 🚀 Made with ❤️ by [!Nithinbharathi.T](https://github.com/Nithinbharathi93)
+### 🚀 Made with ❤️ by [Nithinbharathi.T](https://github.com/Nithinbharathi93)
 
